@@ -1,0 +1,20 @@
+{
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.parameterHints.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.snippetSuggestions": "none",
+    "editor.wordBasedSuggestions": "off",
+    "gopls": { "ui.completion.completion": false }, // If using Go
+    "python.analysis.ignore": ["**"],                // If using Python
+    "javascript.validate.enable": false,             // If using JavaScript
+    "typescript.validate.enable": false,             // If using TypeScript
+    "github.copilot.enable": {
+        "*": false
+    }
+}
